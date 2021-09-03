@@ -1,2 +1,2 @@
 # SeriesPrograms
-# It contains java codes for series
+# It contains java codes for logical series
