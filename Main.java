@@ -5,13 +5,22 @@ public class Main {
     
   }
   
-  private static starSeries2 (int lineCount) {
+  private static starPyramid1 (int lineCount) {
     
     for (int i=0; i<lineCount; i++) {
       for (int j=i; j<=i; j++) {
         System.out.print("* ");
       }
-      System.out.println("")
+      System.out.println();
+    }
+  }
+  
+  private static starPyramid2(int lineCount) {
+    for (int i=0; i<lineCount; i++) {
+      for (int j=i; j<lineCount; j++) {
+        System.out.print("* ");
+      }
+      System.out.println();
     }
   }
 }
